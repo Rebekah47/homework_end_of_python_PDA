@@ -35,7 +35,7 @@ class CardGame:
 def cards_total(self, cards):
   total#variable isnt defined and so the function wouldnt return anythign to test ,needs to be and int, set to 0
   for card in cards:
-    total += card.value
-    return "You have a total of" + total
+    total += card.value 
+    return "You have a total of" + total #return statment is indented too far and is inside the for loop and the "total" needs to be concatenated in to a string.
   
 ```
